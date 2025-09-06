@@ -17,20 +17,20 @@ const illustration = {
 };
 
 const greeting = {
-  [cite_start]username: "Kaushika Semwal", [cite: 1]
+  username: "Kaushika Semwal", 
   title: "Hi all, I'm Kaushika",
   subTitle: emoji(
     "A B.Tech student in Artificial Intelligence with a passion for Computer Vision, Generative AI, and building impactful tech solutions. 🚀"
   ),
-  resumeLink: "", // TODO: Add a link to your new resume PDF file.
+  resumeLink: "https://kaushikasemwal.github.io/developerFolio/resume.pdf",
   displayGreeting: true,
 };
 
 // Social Media Links
 const socialMediaLinks = {
-  [cite_start]github: "https://github.com/kaushikasemwal", [cite: 3]
-  [cite_start]linkedin: "https://www.linkedin.com/in/kaushika-semwal-255165316/", [cite: 3]
-  [cite_start]gmail: "kaushika13semwal@gmail.com", [cite: 2]
+  github: "https://github.com/kaushikasemwal", 
+  linkedin: "https://www.linkedin.com/in/kaushika-semwal-255165316/",
+  gmail: "kaushika13semwal@gmail.com", 
   display: true,
 };
 
@@ -39,9 +39,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "AI & ML ENTHUSIAST FOCUSED ON BUILDING AND DEPLOYING INTELLIGENT SYSTEMS",
   skills: [
-    [cite_start]emoji("⚡ Building and training computer vision and generative AI models."), [cite: 10, 15]
-    [cite_start]emoji("⚡ Developing front-end solutions for web applications."), [cite: 9, 22]
-    [cite_start]emoji("⚡ Applying concepts of Linear Algebra, Probability, and Low-Level Design."), [cite: 11]
+    emoji("⚡ Building and training computer vision and generative AI models."), 
+    emoji("⚡ Developing front-end solutions for web applications."), 
+    emoji("⚡ Applying concepts of Linear Algebra, Probability, and Low-Level Design."), 
   ],
   softwareSkills: [
     {
@@ -78,20 +78,20 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Mukesh Patel School of Technology Management & Engineering",
-      [cite_start]subHeader: "B.Tech in Artificial Intelligence", [cite: 5]
-      [cite_start]duration: "2023 – Present", [cite: 5]
+      subHeader: "B.Tech in Artificial Intelligence", 
+      duration: "2023 – Present", 
       descBullets: [],
     },
     {
       schoolName: "Pace Junior College",
-      [cite_start]subHeader: "Class 12 (HSC)", [cite: 6]
-      [cite_start]duration: "2021", [cite: 6]
+      subHeader: "Class 12 (HSC)",
+      duration: "2021",
       descBullets: [],
     },
     {
       schoolName: "Rajhans Vidyalaya",
-      [cite_start]subHeader: "Class 10 (SSC)", [cite: 7]
-      [cite_start]duration: "2019", [cite: 7]
+      subHeader: "Class 10 (SSC)", 
+      duration: "2019", 
       descBullets: [],
     },
   ],
@@ -103,23 +103,23 @@ const workExperiences = {
   experience: [
     {
       role: "AI Intern",
-      [cite_start]company: "Valiance Solutions", [cite: 15]
-      [cite_start]date: "May 2025 – Present", [cite: 15]
-      [cite_start]desc: "Developed and tested computer vision models, gaining practical exposure to CNNs and object detection. Collaborated on mini-projects and prototypes later refined for client deployment.", [cite: 15]
+      company: "Valiance Solutions", 
+      date: "May 2025 – Present", 
+      desc: "Developed and tested computer vision models, gaining practical exposure to CNNs and object detection. Collaborated on mini-projects and prototypes later refined for client deployment.",
       descBullets: [],
     },
     {
-      [cite_start]role: "Senior Executive, Microsoft Students Club (MPSTME)", [cite: 16]
+      role: "Senior Executive, Microsoft Students Club (MPSTME)",
       company: "MPSTME",
-      [cite_start]date: "Aug 2025 – Present", [cite: 16]
-      [cite_start]desc: "Coordinated workshops and tech events, engaging 100+ students. Mentored junior members and contributed to event organization.", [cite: 17]
+      date: "Aug 2025 – Present",
+      desc: "Coordinated workshops and tech events, engaging 100+ students. Mentored junior members and contributed to event organization.",
       descBullets: [],
     },
     {
-      [cite_start]role: "Senior Executive, Sattva (NMIMS Cultural Committee)", [cite: 18]
+      role: "Senior Executive, Sattva (NMIMS Cultural Committee)", 
       company: "NMIMS",
-      [cite_start]date: "Jan 2025 – Mar 2025", [cite: 18]
-      [cite_start]desc: "Led cultural event planning and execution, ensuring smooth operations and high student participation.", [cite: 19]
+      date: "Jan 2025 – Mar 2025", 
+      desc: "Led cultural event planning and execution, ensuring smooth operations and high student participation.",
       descBullets: [],
     },
   ],
@@ -132,12 +132,12 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-const Projects = {
+const bigProjects = {
   title: "Projects",
   subtitle: "SOME OF THE PROJECTS I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/ai-image-generator.png"), // TODO: Add this image
+      //image: require("./assets/images/ai-image-generator.png"), // TODO: Add this image
       projectName: "Plant Disease Detection using Computer Vision",
       projectDesc: "A web application that leverages generative AI to create images from user-provided text prompts, built with HTML, CSS, and JavaScript.",
       footerLink: [
@@ -148,7 +148,7 @@ const Projects = {
       ],
     },
     {
-      image: require("./assets/images/netflix-clone.png"), // TODO: Add this image
+      //image: require("./assets/images/netflix-clone.png"), // TODO: Add this image
       projectName: "Analyze Citizens' Travel Mode",
       projectDesc: "A front-end clone of the Netflix landing page, created to practice and demonstrate modern HTML and CSS skills.",
       footerLink: [
@@ -159,7 +159,7 @@ const Projects = {
       ],
     },
     {
-      image: require("./assets/images/netflix-clone.png"), // TODO: Add this image
+      //image: require("./assets/images/netflix-clone.png"), // TODO: Add this image
       projectName: "Email Spam Detection",
       projectDesc: "A front-end clone of the Netflix landing page, created to practice and demonstrate modern HTML and CSS skills.",
       footerLink: [
@@ -170,7 +170,7 @@ const Projects = {
       ],
     },
     {
-      image: require("./assets/images/netflix-clone.png"), // TODO: Add this image
+      //image: require("./assets/images/netflix-clone.png"), // TODO: Add this image
       projectName: "Iris Payment System",
       projectDesc: "A front-end clone of the Netflix landing page, created to practice and demonstrate modern HTML and CSS skills.",
       footerLink: [
@@ -191,26 +191,26 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Low Level Design of Payment Apps",
-      [cite_start]subtitle: "Completed a certification on system design principles for payment applications from Scaler.", [cite: 26]
-      image: require("./assets/images/scaler-logo.png"), // TODO: Add this image
+      subtitle: "Completed a certification on system design principles for payment applications from Scaler.",
+      //image: require("./assets/images/scaler-logo.png"), // TODO: Add this image
       footerLink: [],
     },
     {
       title: "Building Resilience",
-      [cite_start]subtitle: "Completed a professional development course on building resilience from LinkedIn Learning.", [cite: 28]
-      image: require("./assets/images/linkedin-logo.png"), // TODO: Add this image
+      subtitle: "Completed a professional development course on building resilience from LinkedIn Learning.", 
+      //image: require("./assets/images/linkedin-logo.png"), // TODO: Add this image
       footerLink: [],
     },
     {
       title: "Developing Your Emotional Intelligence",
-      [cite_start]subtitle: "Completed a course focused on emotional intelligence from LinkedIn.", [cite: 29]
-      image: require("./assets/images/linkedin-logo.png"), // TODO: Add this image
+      subtitle: "Completed a course focused on emotional intelligence from LinkedIn.", 
+      //image: require("./assets/images/linkedin-logo.png"), // TODO: Add this image
       footerLink: [],
     },
     {
       title: "Blockchain Training Workshop",
-      [cite_start]subtitle: "Participated in a hands-on workshop covering the fundamentals of blockchain technology.", [cite: 30]
-      image: require("./assets/images/mpstme-logo.png"), // TODO: Add this image
+      subtitle: "Participated in a hands-on workshop covering the fundamentals of blockchain technology.", 
+      //image: require("./assets/images/mpstme-logo.png"), // TODO: Add this image
       footerLink: [],
     },
   ],
@@ -220,11 +220,21 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
-  [cite_start]number: "8591691721", [cite: 2]
-  [cite_start]email_address: "kaushika13semwal@gmail.com", [cite: 2]
+  number: "8591691721", 
+  email_address: "kaushika13semwal@gmail.com", 
 };
 
 const isHireable = true;
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+  display: true, // Set to false to hide the resume section
+};
+
+const twitterDetails = {
+  userName: "your-twitter-handle", // This part doesn't matter
+  display: false,                  // 👈 This line hides the section
+};
 
 // Hiding sections that are not yet filled
 const techStack = { display: false };
@@ -249,4 +259,6 @@ export {
   podcastSection,
   contactInfo,
   isHireable,
+  resumeSection,
+  twitterDetails
 };
