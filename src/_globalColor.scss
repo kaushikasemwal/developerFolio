@@ -1,43 +1,42 @@
-/* Pastel Theme created for your portfolio.
-You can still tweak any color you like! */
+/* Pastel Theme (Pink, Green, Blue) */
 
 // button colors
-$buttonColor: #b2c8df; // Pastel Blue
-$buttonHover: #c7ceea; // Pastel Lavender
-$topButtonHover: #5c5470; // Muted Purple/Gray
+$buttonColor: #a7c7e7; // Pastel Blue
+$buttonHover: #ffb3ba; // Pastel Pink
+$topButtonHover: #5f5f5f; // Dark Gray
 
 // text colors
-$titleColor: #5c5470; // Muted Purple/Gray
-$textColor: #5c5470;
-$subTitle: #9a8c98; // Muted Mauve
-$cardSubtitle: #9a8c98;
-$talkCardSubTitle: #9a8c98;
-$blogCardTitleColor: #5c5470;
-$textColorDark: #fffbf5; // For any text on a dark background
+$titleColor: #5f5f5f; // Dark Gray
+$textColor: #5f5f5f; // Dark Gray
+$subTitle: #8d8d8d; // Medium Gray for subtitles
+$cardSubtitle: #8d8d8d;
+$talkCardSubTitle: #8d8d8d;
+$blogCardTitleColor: #5f5f5f;
+$textColorDark: #fdfcfc; // Off-white text for dark theme components
 
-// toggle switch colors (using our theme accents)
-$toggleCheck: #b2c8df;
-$toggleSwitchSliderBG: #f2f2f7;
+// toggle switch colors
+$toggleCheck: #a7c7e7;
+$toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #c7ceea;
-$githubRepoCardColor: #5c5470;
-$githubRepoCardRepoCardStatsColor: #9a8c98;
-$githubRepoCardRepoNameColor: #5c5470;
-$githubProfileCardLocationTS: #5c5470;
-$githubProfileCardBorder: #c7ceea;
+$githubRepoCardLanguageColorBG: #b2d8b2;
+$githubRepoCardColor: #8d8d8d;
+$githubRepoCardRepoCardStatsColor: #8d8d8d;
+$githubRepoCardRepoNameColor: #5f5f5f;
+$githubProfileCardLocationTS: #5f5f5f;
+$githubProfileCardBorder: #ffb3ba;
 
 // background colors
-$lightBackground1: #fffbf5; // Main Pastel Cream background
-$lightBackground2: #ffffff; // Pure white for cards/contrast
-$lightBackground3: #f2f2f7; // A slightly darker, compatible off-white
-$blogCardContainerColor: #586069; // Kept this for readability
-$darkBackground: #0a192f; // A deep navy for the dark theme
+$lightBackground1: #fdfcfc; // Main Off-White background
+$lightBackground2: #ffffff; // Pure white for cards
+$lightBackground3: #f7f7f7; // A light gray for contrast sections
+$blogCardContainerColor: #586069;
+$darkBackground: #171c28;
 
-// box shadows (softened for the pastel theme)
-$lightBoxShadowDark: rgba(92, 84, 112, 0.2);
-$lightBoxShadow: rgba(92, 84, 112, 0.1);
-$lightBoxShadowDarker: rgba(92, 84, 112, 0.3);
+// box shadows
+$lightBoxShadowDark: rgba(0, 0, 0, 0.15);
+$lightBoxShadow: rgba(0, 0, 0, 0.1);
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.2);
 $darkBoxShadow: #d9dbdf;
 $darkBoxShadow2: #ffffff;
 
@@ -54,22 +53,22 @@ $experienceCardBannerLG: linear-gradient(
 // borders
 $progressBarBackground: #e1e1e1;
 $lightBorder1: rgba(0, 0, 0, 0.1);
-$educationCardBorder: #c7ceea; // Pastel Lavender
+$educationCardBorder: #ffb3ba; // Pastel Pink
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(0, 0, 0, 0.1);
-$blogCardHoverSmallColor: rgba(0, 0, 0, 0.5);
-$headerHoverBG: #f2f2f7;
+$achievementCertificateCardHoverDark: rgba(0, 0, 0, 0.05);
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
+$headerHoverBG: #f4f4f4;
 $contactDetailHoverTS: #b5b5b5;
 
 // misc backgrounds
-$progressBarSpanBG: #b2c8df; // Pastel Blue
+$progressBarSpanBG: #b2d8b2; // Pastel Green
 $iconBackground: #333;
 $appHeaderBG: #282c34;
 
 // misc colors
-$skillsColor: #b2c8df; // Pastel Blue
-$appLink: #c7ceea; // Pastel Lavender
+$skillsColor: #a7c7e7; // Pastel Blue
+$appLink: #ffb3ba; // Pastel Pink
 
 // social media icons (Kept original brand colors for recognition)
 $faceBook: #3b5998;
