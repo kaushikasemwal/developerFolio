@@ -78,8 +78,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Mukesh Patel School of Technology Management & Engineering",
-      subHeader: "B.Tech in Artificial Intelligence", 
-      duration: "2023 – Present", 
+      subHeader: "B.Tech in Artificial Intelligence",
+      logo: require("./assets/images/image.png"),
+      duration: "2023 – Present",
       descBullets: [],
     },
     {
@@ -105,6 +106,7 @@ const workExperiences = {
       role: "AI Intern",
       company: "Valiance Solutions", 
       date: "May 2025 – Present", 
+      logo: require("./assets/images/valiance.png"),
       desc: "Developed and tested computer vision models, gaining practical exposure to CNNs and object detection. Collaborated on mini-projects and prototypes later refined for client deployment.",
       descBullets: [],
     },
@@ -112,13 +114,15 @@ const workExperiences = {
       role: "Senior Executive, Microsoft Students Club (MPSTME)",
       company: "MPSTME",
       date: "Aug 2025 – Present",
+      logo: require("./assets/images/microsoft_learn.jpg"),
       desc: "Coordinated workshops and tech events, engaging 100+ students. Mentored junior members and contributed to event organization.",
       descBullets: [],
     },
     {
       role: "Senior Executive, Sattva (NMIMS Cultural Committee)", 
       company: "NMIMS",
-      date: "Jan 2025 – Mar 2025", 
+      date: "Jan 2025 – Mar 2025",
+      logo: require("./assets/images/image.png"), 
       desc: "Led cultural event planning and execution, ensuring smooth operations and high student participation.",
       descBullets: [],
     },
@@ -192,26 +196,68 @@ const achievementSection = {
     {
       title: "Low Level Design of Payment Apps",
       subtitle: "Completed a certification on system design principles for payment applications from Scaler.",
-      //image: require("./assets/images/scaler-logo.png"), // TODO: Add this image
-      footerLink: [],
+      image: require("./assets/images/Scaler.png"), 
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/LLD.pdf",
+        }
+      ],
     },
     {
       title: "Building Resilience",
       subtitle: "Completed a professional development course on building resilience from LinkedIn Learning.", 
-      //image: require("./assets/images/linkedin-logo.png"), // TODO: Add this image
-      footerLink: [],
+      image: require("./assets/images/linkedin-learning.png"),
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/building-resilience.pdf",
+        }
+      ],
     },
     {
-      title: "Developing Your Emotional Intelligence",
-      subtitle: "Completed a course focused on emotional intelligence from LinkedIn.", 
-      //image: require("./assets/images/linkedin-logo.png"), // TODO: Add this image
-      footerLink: [],
+      title: "Introduction to Artificial Intelligence",
+      subtitle: "Completed a course focused on the fundamentals of AI from LinkedIn.",
+      image: require("./assets/images/linkedin_learning.png"),
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Introduction_to_Artificial_Intelligence.pdf",
+        }
+      ],
     },
     {
       title: "Blockchain Training Workshop",
       subtitle: "Participated in a hands-on workshop covering the fundamentals of blockchain technology.", 
-      //image: require("./assets/images/mpstme-logo.png"), // TODO: Add this image
-      footerLink: [],
+      image: require("./assets/images/image.png"), // TODO: Add this image
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Blockchain_Training.png",
+        }
+      ],
+    },
+    {
+      title: "Java Programming",
+      subtitle: "Participated in a hands-on workshop covering the fundamentals of Java programming.", 
+      image: require("./assets/images/image.png"),
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Java_Workshop.jpeg",
+        }
+      ],
+    },
+    {
+      title: "Microsoft Learn Student Ambassador",
+      subtitle: "Was part of the Microsoft Learn Student Ambassador program during my second year of college.",
+      image: require("./assets/images/microsoft_learn.jpg"),
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/MSC_Certificates.png",
+        }
+      ],
     },
   ],
   display: true,
