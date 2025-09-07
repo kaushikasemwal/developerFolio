@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2e93d398.css",
-    "main.js": "/portfolio/static/js/main.381c57bf.js",
+    "main.js": "/portfolio/static/js/main.179b8a5b.js",
     "static/css/64.f94c1d8c.chunk.css": "/portfolio/static/css/64.f94c1d8c.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/portfolio/static/js/64.41912c0a.chunk.js",
     "static/css/769.ad9667ce.chunk.css": "/portfolio/static/css/769.ad9667ce.chunk.css",
     "static/js/769.6b18baac.chunk.js": "/portfolio/static/js/769.6b18baac.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/linkedin_learning.png": "/portfolio/static/media/linkedin_learning.77804dd647621cd052e9.png",
-    "static/media/Valiance-logo.png": "/portfolio/static/media/Valiance-logo.932b9e231d561422047b.png",
+    "static/media/valiance-logo.png": "/portfolio/static/media/valiance-logo.932b9e231d561422047b.png",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/microsoft_learn.jpg": "/portfolio/static/media/microsoft_learn.1bf9375c6ca6b016c90c.jpg",
     "static/media/image.png": "/portfolio/static/media/image.98dcefe275ee25afbe31.png",
@@ -21,7 +21,7 @@
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2e93d398.css.map": "/portfolio/static/css/main.2e93d398.css.map",
-    "main.381c57bf.js.map": "/portfolio/static/js/main.381c57bf.js.map",
+    "main.179b8a5b.js.map": "/portfolio/static/js/main.179b8a5b.js.map",
     "64.f94c1d8c.chunk.css.map": "/portfolio/static/css/64.f94c1d8c.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/portfolio/static/js/64.41912c0a.chunk.js.map",
     "769.ad9667ce.chunk.css.map": "/portfolio/static/css/769.ad9667ce.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.2e93d398.css",
-    "static/js/main.381c57bf.js"
+    "static/js/main.179b8a5b.js"
   ]
 }
