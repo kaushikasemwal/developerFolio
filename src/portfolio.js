@@ -106,7 +106,7 @@ const workExperiences = {
     {
       role: "AI Intern",
       company: "Valiance Solutions",
-      companylogo: require("./assets/images/valiance-logo.png"),
+      //companylogo: require("./assets/images/valiance-logo.png"),
       date: "May 2025 – Present",
       desc: "Developed and tested computer vision models, gaining practical exposure to CNNs and object detection. Collaborated on mini-projects and prototypes later refined for client deployment.",
       descBullets: [],
@@ -114,7 +114,7 @@ const workExperiences = {
     {
       role: "Senior Executive, Microsoft Students Club (MPSTME)",
       company: "MPSTME",
-      companylogo: require("./assets/images/microsoft_learn.jpg"),
+      //companylogo: require("./assets/images/microsoft_learn.jpg"),
       date: "Aug 2025 – Present",
       desc: "Coordinated workshops and tech events, engaging 100+ students. Mentored junior members and contributed to event organization and execution.",
       descBullets: [],
@@ -122,7 +122,7 @@ const workExperiences = {
     {
       role: "Senior Executive, Sattva (NMIMS Cultural Committee)",
       company: "NMIMS",
-      companylogo: require("./assets/images/image.png"),
+      //companylogo: require("./assets/images/image.png"),
       date: "Jan 2025 – Mar 2025",
       desc: "Led cultural event planning and execution, ensuring smooth operations and high student participation.",
       descBullets: [],
