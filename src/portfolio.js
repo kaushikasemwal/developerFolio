@@ -91,8 +91,9 @@ const educationInfo = {
     },
     {
       schoolName: "Rajhans Vidyalaya",
-      subHeader: "Class 10 (SSC)", 
-      duration: "2019", 
+      subHeader: "Class 10 (SSC)",
+      logo: require("./assets/images/rajhans_logo.webp"),
+      duration: "2019",
       descBullets: [],
     },
   ],
@@ -100,29 +101,29 @@ const educationInfo = {
 
 // Work experience section
 const workExperiences = {
-  display: true,
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "AI Intern",
-      company: "Valiance Solutions", 
-      date: "May 2025 – Present", 
-      logo: require("./assets/images/valiance.png"),
+      company: "Valiance Solutions",
+      companylogo: require("./assets/images/valiance-logo.png"),
+      date: "May 2025 – Present",
       desc: "Developed and tested computer vision models, gaining practical exposure to CNNs and object detection. Collaborated on mini-projects and prototypes later refined for client deployment.",
       descBullets: [],
     },
     {
       role: "Senior Executive, Microsoft Students Club (MPSTME)",
       company: "MPSTME",
+      companylogo: require("./assets/images/microsoft_learn.jpg"),
       date: "Aug 2025 – Present",
-      logo: require("./assets/images/microsoft_learn.jpg"),
-      desc: "Coordinated workshops and tech events, engaging 100+ students. Mentored junior members and contributed to event organization.",
+      desc: "Coordinated workshops and tech events, engaging 100+ students. Mentored junior members and contributed to event organization and execution.",
       descBullets: [],
     },
     {
-      role: "Senior Executive, Sattva (NMIMS Cultural Committee)", 
+      role: "Senior Executive, Sattva (NMIMS Cultural Committee)",
       company: "NMIMS",
+      companylogo: require("./assets/images/image.png"),
       date: "Jan 2025 – Mar 2025",
-      logo: require("./assets/images/image.png"), 
       desc: "Led cultural event planning and execution, ensuring smooth operations and high student participation.",
       descBullets: [],
     },
