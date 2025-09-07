@@ -22,7 +22,7 @@ const greeting = {
   subTitle: emoji(
     "A B.Tech student in Artificial Intelligence with a passion for Computer Vision, Generative AI, and building impactful tech solutions. 🚀"
   ),
-  resumeLink: "https://kaushikasemwal.github.io/developerFolio/resume.pdf",
+  resumeLink: "https://kaushikasemwal.github.io/portfolio/resume.pdf",
   displayGreeting: true,
 };
 
@@ -207,11 +207,11 @@ const achievementSection = {
     {
       title: "Building Resilience",
       subtitle: "Completed a professional development course on building resilience from LinkedIn Learning.", 
-      image: require("./assets/images/linkedin-learning.png"),
+      image: require("./assets/images/linkedin_learning.png"),
       footerLink: [
         {
       name: "View Certificate",
-      url: "https://kaushikasemwal.github.io/portfolio/certificates/building-resilience.pdf",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Building Resilience.pdf",
         }
       ],
     },
@@ -222,7 +222,7 @@ const achievementSection = {
       footerLink: [
         {
       name: "View Certificate",
-      url: "https://kaushikasemwal.github.io/portfolio/certificates/Introduction_to_Artificial_Intelligence.pdf",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Introduction to Artificial Intelligence.pdf",
         }
       ],
     },
@@ -233,7 +233,7 @@ const achievementSection = {
       footerLink: [
         {
       name: "View Certificate",
-      url: "https://kaushikasemwal.github.io/portfolio/certificates/Blockchain_Training.png",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Blockchain Training.png",
         }
       ],
     },
@@ -244,7 +244,7 @@ const achievementSection = {
       footerLink: [
         {
       name: "View Certificate",
-      url: "https://kaushikasemwal.github.io/portfolio/certificates/Java_Workshop.jpeg",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/Java Workshop.jpeg",
         }
       ],
     },
@@ -255,7 +255,7 @@ const achievementSection = {
       footerLink: [
         {
       name: "View Certificate",
-      url: "https://kaushikasemwal.github.io/portfolio/certificates/MSC_Certificates.png",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/MSC Certificates.png",
         }
       ],
     },
